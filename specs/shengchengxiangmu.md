@@ -2,4 +2,4 @@
 
 ## 生成美华尚医表及结构体
 
-* 生成表从jichu目录读取mhsyyonghu下的表关联
+* 生成moxings
