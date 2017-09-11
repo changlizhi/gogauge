@@ -1,7 +1,7 @@
 package stepImpl
 import(
 	"github.com/getgauge-contrib/gauge-go/gauge"
-	"hanfuxin/baseinits"
+	"gongju"
 	"github.com/sclevine/agouti"
 	"log"
 )
@@ -22,5 +22,5 @@ var _ = gauge.Step("just print cuowu",func(){
 	page.Destroy()
 	agoutiDriver.Stop()
 
-	log.Println(baseinits.Cuowus)
+	log.Println(gongju.Chushihuas)
 })
