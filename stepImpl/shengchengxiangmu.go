@@ -29,9 +29,10 @@ var _ = gauge.Step("生成Chushihuas-lujinghuoqu", func() {
 })
 
 
-
-
-//需要Chushihuas这个前提
+var _ = gauge.Step("生成Chushihuas-jsonlie", func() {
+	scchushihuas.Shengchengchushihuajsonlie()
+})
+//需要Chushihuas这个前提与“生成Chushihuas-jsonlie”互相关联
 var _ = gauge.Step("生成Chushihuas-duqujson", func() {
 	scchushihuas.Shengchengduqujson()
 })

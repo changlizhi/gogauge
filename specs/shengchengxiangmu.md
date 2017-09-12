@@ -8,6 +8,8 @@
 * 生成Chushihuas-jsongo
 * 生成Chushihuas-lujinghuoqu
 
-
+* 生成Chushihuas-jsonlie
 * 生成Chushihuas-duqujson
+
+
 * 生成Main
