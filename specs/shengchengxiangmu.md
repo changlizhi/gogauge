@@ -11,5 +11,7 @@
 * 生成Chushihuas-jsonlie
 * 生成Chushihuas-duqujson
 
+* 生成Chushihuas-ormer
+
 
 * 生成Main

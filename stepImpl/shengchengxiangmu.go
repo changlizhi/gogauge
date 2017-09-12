@@ -36,6 +36,9 @@ var _ = gauge.Step("生成Chushihuas-jsonlie", func() {
 var _ = gauge.Step("生成Chushihuas-duqujson", func() {
 	scchushihuas.Shengchengduqujson()
 })
+var _ = gauge.Step("生成Chushihuas-ormer", func() {
+	scchushihuas.Shengchengchushihuaormer()
+})
 
 
 
