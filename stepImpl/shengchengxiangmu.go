@@ -24,6 +24,9 @@ var _ = gauge.Step("生成Cuowu", func() {
 var _ = gauge.Step("生成Chushihuas-jsongo", func() {
 	scchushihuas.Shengchengjsongo()
 })
+var _ = gauge.Step("生成Chushihuas-lujinghuoqu", func() {
+	scchushihuas.Shengchenglujinghuoqu()
+})
 
 
 
