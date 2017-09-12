@@ -64,6 +64,9 @@ var _ = gauge.Step("生成数据库操作yewus-test", func() {
 var _ = gauge.Step("生成数据库操作kongzhiqis", func() {
 	sckongzhiqis.Shengchengkongzhiqis()
 })
+var _ = gauge.Step("生成数据库操作kongzhiqis-test", func() {
+	sckongzhiqis.Shengchengkongzhiqitest()
+})
 
 
 
