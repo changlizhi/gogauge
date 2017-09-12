@@ -6,3 +6,4 @@
 * 生成Main
 * 生成Conf
 * 生成Cuowu
+* 生成Chushihuas-jsongo
