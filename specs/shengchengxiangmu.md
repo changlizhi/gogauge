@@ -18,5 +18,6 @@
 * 生成数据库操作kus-test
 * 生成数据库操作yewus
 * 生成数据库操作yewus-test
+* 生成数据库操作kongzhiqis
 
 * 生成Main
