@@ -50,6 +50,9 @@ var _ = gauge.Step("生成Chushihuas-test", func() {
 var _ = gauge.Step("生成数据库操作kus", func() {
 	sckus.Shengchengkus()
 })
+var _ = gauge.Step("生成数据库操作kus-test", func() {
+	sckus.Shengchengkustests()
+})
 
 
 
