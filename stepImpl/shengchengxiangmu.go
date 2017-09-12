@@ -42,6 +42,10 @@ var _ = gauge.Step("生成Chushihuas-ormer", func() {
 	scchushihuas.Shengchengchushihuaormer()
 })
 
+var _ = gauge.Step("生成Chushihuas-test", func() {
+	scchushihuas.Shengchengchushihuatest()
+})
+
 
 
 

@@ -12,6 +12,7 @@
 * 生成Chushihuas-duqujson
 
 * 生成Chushihuas-ormer
+* 生成Chushihuas-test
 
 
 * 生成Main
