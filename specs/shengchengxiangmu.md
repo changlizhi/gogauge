@@ -14,5 +14,6 @@
 * 生成Chushihuas-ormer
 * 生成Chushihuas-test
 
+* 生成数据库操作kus
 
 * 生成Main
