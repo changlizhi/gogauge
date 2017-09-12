@@ -4,3 +4,4 @@
 
 * 生成moxings
 * 生成Main
+* 生成Conf
