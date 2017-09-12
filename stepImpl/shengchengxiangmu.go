@@ -8,6 +8,7 @@ import (
 	"jichu/sccuowus"
 	"jichu/scchushihuas"
 	"jichu/sckus"
+	"jichu/scyewus"
 )
 
 var _ = gauge.Step("生成Moxings", func() {
@@ -52,6 +53,9 @@ var _ = gauge.Step("生成数据库操作kus", func() {
 })
 var _ = gauge.Step("生成数据库操作kus-test", func() {
 	sckus.Shengchengkustests()
+})
+var _ = gauge.Step("生成数据库操作yewus", func() {
+	scyewus.Shengchengyewu()
 })
 
 
