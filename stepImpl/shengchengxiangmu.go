@@ -28,6 +28,14 @@ var _ = gauge.Step("生成Chushihuas-jsongo", func() {
 
 
 
+//需要Chushihuas这个前提
+var _ = gauge.Step("生成Chushihuas-duqujson", func() {
+	scchushihuas.Shengchengduqujson()
+})
+
+
+
+
 var _ = gauge.Step("生成Main", func() {
 	scmain.Shengchengmain()
 })
