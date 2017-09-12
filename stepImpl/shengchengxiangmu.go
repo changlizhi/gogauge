@@ -5,14 +5,20 @@ import (
 	"jichu/scmoxing"
 	"jichu/scmain"
 	"jichu/scconf"
+	"jichu/sccuowus"
 )
 
-var _ = gauge.Step("生成moxings", func() {
+var _ = gauge.Step("生成Moxings", func() {
 	scmoxing.Shengchengmoxings()
 })
 
 var _ = gauge.Step("生成Conf", func() {
 	scconf.Shengchengconf()
+})
+
+
+var _ = gauge.Step("生成Cuowu", func() {
+	sccuowus.Shengchengziduancuowu()
 })
 
 
