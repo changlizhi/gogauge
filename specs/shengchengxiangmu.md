@@ -15,6 +15,9 @@
 * 生成Chushihuas-ormer
 * 生成Chushihuas-test
 
+* 生成拼接结构体字段
+* 生成拼接结构体字段test
+
 * 生成数据库操作kus
 * 生成数据库操作kus-test
 * 生成数据库操作yewus
