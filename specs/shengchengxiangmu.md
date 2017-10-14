@@ -7,6 +7,7 @@
 * 生成Peizhi
 * 生成Cuowu
 * 生成Chushihuas-jsongo
+* 生成Chushihuas-shezhigo
 * 生成Chushihuas-lujinghuoqu
 
 * 生成Chushihuas-jsonlie
