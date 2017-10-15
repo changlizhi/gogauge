@@ -13,6 +13,7 @@ import (
 	"jichu/scluyous"
 	"jichu/scpeizhi"
 	"jichu/scfortests"
+	"jichu/scguojihua"
 )
 
 var _ = gauge.Step("生成Moxings", func() {
@@ -22,6 +23,13 @@ var _ = gauge.Step("生成Moxings", func() {
 var _ = gauge.Step("生成Conf", func() {
 	scconf.Shengchengconf()
 })
+var _ = gauge.Step("生成goconfPeizhi", func() {
+	scpeizhi.Shengchenggoconfpeizhi()
+})
+var _ = gauge.Step("生成Guojihua", func() {
+	scguojihua.Shengchengguojihua()
+})
+
 var _ = gauge.Step("生成Cuowu", func() {
 	sccuowus.Shengchengziduancuowu()
 })

@@ -4,7 +4,8 @@
 
 * 生成Moxings
 * 生成Conf
-* 生成Peizhi
+* 生成goconfPeizhi
+* 生成Guojihua
 * 生成Cuowu
 * 生成Chushihuas-jsongo
 * 生成Chushihuas-shezhigo
