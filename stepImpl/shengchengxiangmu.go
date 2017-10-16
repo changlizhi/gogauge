@@ -11,9 +11,10 @@ import (
 	"jichu/scyewus"
 	"jichu/sckongzhiqis"
 	"jichu/scluyous"
-	"jichu/scpeizhi"
+	"jichu/scshezhi"
 	"jichu/scfortests"
 	"jichu/scguojihua"
+	"jichu/scsql"
 )
 
 var _ = gauge.Step("生成Moxings", func() {
@@ -24,7 +25,7 @@ var _ = gauge.Step("生成Conf", func() {
 	scconf.Shengchengconf()
 })
 var _ = gauge.Step("生成goconfPeizhi", func() {
-	scpeizhi.Shengchenggoconfpeizhi()
+	scshezhi.Shengchenggoconfpeizhi()
 })
 var _ = gauge.Step("生成Guojihua", func() {
 	scguojihua.Shengchengguojihua()
@@ -38,7 +39,7 @@ var _ = gauge.Step("生成Chushihuas-jsongo", func() {
 })
 
 var _ = gauge.Step("生成Chushihuas-shezhigo", func() {
-scchushihuas.Shengchengshezhis()
+	scchushihuas.Shengchengshezhis()
 })
 var _ = gauge.Step("生成Chushihuas-lujinghuoqu", func() {
 	scchushihuas.Shengchenglujinghuoqu()
@@ -106,4 +107,8 @@ var _ = gauge.Step("生成数据库操作luyous-test", func() {
 
 var _ = gauge.Step("生成Main", func() {
 	scmain.Shengchengmain()
+})
+
+var _ = gauge.Step("生成sql", func() {
+	scsql.Shengchengsql()
 })

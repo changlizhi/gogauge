@@ -34,3 +34,4 @@
 * 生成数据库操作luyous-test
 
 * 生成Main
+* 生成sql
